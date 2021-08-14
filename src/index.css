@@ -9,8 +9,14 @@ body {
 h1 {
   @apply font-inconsolata;
 }
+p {
+  @apply text-gray-500 max-w-prose;
+}
 .btn {
-  @apply text-black rounded-full bg-blue-500 py-3 px-6 text-lg;
+  @apply text-black rounded-full bg-blue-400 py-3 px-6 text-lg;
+}
+.btn1 {
+  @apply text-black rounded-sm sm:rounded-full bg-blue-400 py-3 px-4 text-lg;
 }
 .centerFlex {
   @apply flex items-center justify-center;
