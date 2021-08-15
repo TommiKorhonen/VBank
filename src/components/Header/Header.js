@@ -4,7 +4,7 @@ import imageOne from "../../images/Bank.svg"
 const Header = () => {
     return (
         <header className="grid lg:grid-cols-2 grid-cols-1
-        p-5 h-screen">
+        p-5 max-h-screen bg-gray-100">
             {/* left */}
             <div className="flex flex-col justify-center gap-4">
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl">Build your <br /> Digital Banking Solutions</h1>
@@ -19,9 +19,9 @@ const Header = () => {
                 </div>
             </div>
             {/* right */}
-            <div className="aspect-w-3 aspect-h-2 sm:aspect-w-4 sm:aspect-h-2
+            <div className="flex aspect-w-3 aspect-h-2 sm:aspect-w-4 sm:aspect-h-2
             lg:aspect-w-4 lg:aspect-h-3">
-                <img src={imageOne} alt="Image of vault" className=" object-contain rounded-md"/>
+                <img src={imageOne} alt=" Vault" className=" object-contain rounded-md"/>
             </div>
         </header>
     )

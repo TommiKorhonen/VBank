@@ -6,7 +6,7 @@
 body {
   @apply font-montserrat;
 }
-h1 {
+h1, h2 {
   @apply font-inconsolata;
 }
 p {
