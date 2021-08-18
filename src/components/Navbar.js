@@ -1,22 +1,26 @@
-import React from 'react'
+import React, {useState, useEffect, useRef} from 'react';
 import { MenuIcon } from "@heroicons/react/solid"
+import Scrollspy from 'react-scrollspy';
 
 const Navbar = ({toggle}) => {
     return (
-        <nav className="sticky top-0 z-50 grid
-        md:grid-cols-3 grid-cols-2 bg-white shadow-md py-5 px-5 md:px-10">
+        <nav className="sticky top-0 z-50 grid 
+        md:grid-cols-3 grid-cols-2 bg-white shadow-md py-5 px-5 md:px-10
+        ">
             {/* left */}
             <div className="flex items-center">
-                <span className="text-2xl">VBank</span>
+                <button className="text-2xl"><a href="#">VBank</a></button>
             </div>
             {/* middle */}
             <div className="md:flex items-center justify-center hidden ">
-                <ul className="centerFlex gap-4 sm:flex-wrap text-lg items-center">
-                    <li>About</li>
-                    <li>Discover</li>
-                    <li>Services</li>
-                    <li>Sign up</li>
-                </ul>
+                <Scrollspy items={ ['about', "discover", "services"] } 
+                currentClassName="active" 
+                className="centerFlex gap-4 sm:flex-wrap text-lg items-center">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#discover">Discover</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#">Sign up</a></li>
+                </Scrollspy>
             </div>
             {/* right */}
             <div className="md:flex items-center md:justify-end justify-center hidden">

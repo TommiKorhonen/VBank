@@ -6,11 +6,24 @@
 body {
   @apply font-montserrat;
 }
-h1, h2 {
-  @apply font-inconsolata;
+h1,
+h2 {
+  @apply font-semibold;
+}
+h2 {
+  @apply text-white text-2xl sm:text-4xl;
+}
+.active {
+  @apply border-b-2 border-blue-400 transition ease-in-out duration-500;
 }
 p {
   @apply text-gray-500 max-w-prose;
+}
+.li-nav {
+  @apply active:bg-red-400;
+}
+.underlinetxt {
+  @apply text-blue-400 underline font-semibold uppercase;
 }
 .btn {
   @apply text-black rounded-full bg-blue-400 py-3 px-6 text-lg;
