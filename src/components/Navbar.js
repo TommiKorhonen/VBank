@@ -19,7 +19,7 @@ const Navbar = ({toggle}) => {
                         <li><a href="#about">About</a></li>
                         <li><a href="#discover">Discover</a></li>
                         <li><a href="#services">Services</a></li>
-                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#signUp">Sign up</a></li>
                 </Scrollspy>
             </div>
             {/* right */}

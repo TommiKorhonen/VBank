@@ -4,6 +4,7 @@ import ScrollToTop from './components/ScrollToTop';
 import Navbar from "./components/Navbar"
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
+import Footer from './components/Footer';
 function App() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
@@ -17,6 +18,7 @@ function App() {
       <Navbar toggle={toggle}/>
       <Header />
       <Main/>
+      <Footer/>
       
     </Router>
     </>

@@ -19,6 +19,12 @@ h2 {
 p {
   @apply text-gray-500 max-w-prose;
 }
+.h3Footer {
+  @apply text-white font-semibold mb-2;
+}
+.spanFooter {
+  @apply text-gray-200 text-sm cursor-pointer;
+}
 .li-nav {
   @apply active:bg-red-400;
 }

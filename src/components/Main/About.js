@@ -13,7 +13,7 @@ const About = ({sectionRefs}) => {
             {/* right */}
             <div className="flex justify-center items-center text-center md:items-start 
             md:text-left 
-            flex-col row-start-1 lg:row-start-auto gap-2 p-8 mt-8 sm:m-0">
+            flex-col row-start-1 lg:row-start-auto gap-2 p-8 mt-10 sm:m-0">
                 <span className=" underlinetxt">Digital bank</span>
                 <h2 >Unlimited Transactions with zero fees</h2>
                 <p>Get acces to our exclusive app that allows you to send unlimited transactions without any fees</p>
