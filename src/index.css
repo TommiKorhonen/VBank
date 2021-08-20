@@ -19,6 +19,9 @@ h2 {
 p {
   @apply text-gray-500 max-w-prose;
 }
+button {
+  @apply hover:shadow-xl transform active:scale-90;
+}
 .h3Footer {
   @apply text-white font-semibold mb-2;
 }

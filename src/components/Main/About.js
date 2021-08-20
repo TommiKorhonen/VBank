@@ -1,11 +1,11 @@
-import React,{useRef,useEffect} from 'react'
+import React from 'react'
 import ImageOne from "../../images/test.svg"
-import { useRefCustom } from '../useRefCustom'
+
 const About = ({sectionRefs}) => {
      
     return (
         <section className="centerFlex flex-col-reverse lg:flex-row
-        p-5 h-screen  bg-black sm:gap-8 " id="about" >
+        p-5 min-h-screen  bg-black sm:gap-8 " id="about" >
             {/* left */}
             <div className="flex items-center justify-center lg:justify-end">
              <img src={ImageOne} alt="" className="h-96 w-96 lg:h-4/5 lg:w-4/5"/>

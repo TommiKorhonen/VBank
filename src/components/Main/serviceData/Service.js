@@ -4,7 +4,7 @@ const Service = () => {
     return (
         <section className="min-h-screen bg-black" id="services">
             <div className="relative flex min-h-screen container m-auto gap-4 flex-wrap sm:p-16 pt-16 p-5">
-                <div className="absolute bg-white w-32 left-1/2 transform -translate-x-16 -top-6 text-center rounded-md">
+                <div className="hidden sm:absolute bg-white w-32 left-1/2 transform -translate-x-16 -top-6 text-center rounded-md">
                     <h2 className="text-2xl text-black">Our Services</h2>
                 </div>
                 {data.map((card) => {

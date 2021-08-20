@@ -4,7 +4,7 @@ import ImageOne from "../../images/signup.svg"
 const SignUp = () => {
     return (
         <section id="signUp" className="centerFlex flex-col lg:flex-row
-        p-5 h-screen bg-gray-100 sm:gap-8">
+        p-5 min-h-screen bg-gray-100 sm:gap-8">
             <div className="flex justify-center items-center 
             mt-10 sm:m-0 text-center md:items-start md:text-left 
             flex-col row-start-1 lg:row-start-auto gap-2 p-8">

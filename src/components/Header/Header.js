@@ -4,7 +4,7 @@ import imageOne from "../../images/Bank.svg"
 const Header = () => {
     return (
         <header className="centerFlex flex-col lg:flex-row
-        p-5 h-screen  bg-gray-100 gap-8">
+        p-5 min-h-screen  bg-gray-100 gap-8">
             {/* left */}
             <div className="flex flex-col justify-center gap-2">
                 <span className=" underlinetxt">Exclusive</span>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <footer className="bg-blue-900 grid p-5">
+        <footer className="bg-blue-900 p-5">
             <div className="grid md:grid-cols-2 grid-cols-1  sm:gap-52 gap-10 p-5">
             {/* left */}
                 <div className="flex md:justify-end justify-center gap-10  flex-wrap">
@@ -39,7 +39,12 @@ const Footer = () => {
                         <span  className="spanFooter">Twitter</span>
                     </div>
                 </div>
-            </div>    
+            </div>
+            <div className="centerFlex flex-col border-t border-gray-500 mt-4">
+                <span className=" text-gray-200 text-sm mt-4">© 2021 Mockup Site</span> 
+                <span className="text-2xl px-5 text-white sm:self-start"><a href="#">VBank</a></span> 
+                <span className="text-center mt-2 text-gray-200 text-sm">Developed By Tommi Korhonen</span>
+            </div>
         </footer>
     )
 }

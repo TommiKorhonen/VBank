@@ -1,1 +1,13 @@
-
+.shadow1 {
+  background-color: #3d668f;
+  height: 8px;
+  width: 80px;
+  margin-left: -40px;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  z-index: 5;
+  -webkit-box-shadow: 0px 2px 4px #000000;
+  -moz-box-shadow: 0px 2px 4px #000000;
+  box-shadow: 0px 2px 4px #000000;
+}

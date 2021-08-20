@@ -1,34 +1,38 @@
-import React, {useState, useEffect, useRef} from 'react';
+import React from 'react';
 import { MenuIcon } from "@heroicons/react/solid"
+import { XIcon } from "@heroicons/react/solid"
 import Scrollspy from 'react-scrollspy';
+import Dropdown from './Dropdown';
 
-const Navbar = ({toggle}) => {
+const Navbar = ({toggle, isOpen}) => {
     return (
-        <nav className="sticky top-0 z-50 grid 
-        md:grid-cols-3 grid-cols-2 bg-white shadow-md py-5 px-5 md:px-10
-        ">
-            {/* left */}
-            <div className="flex items-center">
-                <button className="text-2xl"><a href="#">VBank</a></button>
+        <nav className="bg-white sticky shadow-md top-0 z-50">
+            <div className={isOpen ?"grid md:grid-cols-3 grid-cols-2 pt-5 md:py-5 px-5 md:px-10" : "grid md:grid-cols-3 grid-cols-2  py-5 px-5 md:px-10"}>
+                {/* left */}
+                <div className="flex items-center">
+                    <span className="text-2xl transform hover:scale-110"><a href="#">VBank</a></span>
+                </div>
+                {/* middle */}
+                <div className="md:flex items-center justify-center hidden ">
+                    <Scrollspy items={ ['about', "discover", "services", "signUp"] } 
+                    currentClassName="active" 
+                    className="centerFlex gap-4 sm:flex-wrap text-lg items-center ">
+                            <li className="transform hover:scale-110"><a href="#about">About</a></li>
+                            <li className="transform hover:scale-110"><a href="#discover">Discover</a></li>
+                            <li className="transform hover:scale-110"><a href="#services">Services</a></li>
+                            <li className="transform hover:scale-110"><a href="#signUp">Sign up</a></li>
+                    </Scrollspy>
+                </div>
+                {/* right */}
+                <div className="md:flex items-center md:justify-end justify-center hidden">
+                    <button className="btn shadow-sm hover:shadow-lg transform active:scale-90">Sign In</button>
+                </div>
+                <span className="md:hidden px-4 flex items-center justify-end" onClick={toggle}>
+                    <MenuIcon className={isOpen ? "hidden" : "h-16"}/>
+                    <XIcon className={isOpen ? "h-16" : "hidden"} />
+                </span>
             </div>
-            {/* middle */}
-            <div className="md:flex items-center justify-center hidden ">
-                <Scrollspy items={ ['about', "discover", "services"] } 
-                currentClassName="active" 
-                className="centerFlex gap-4 sm:flex-wrap text-lg items-center">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#discover">Discover</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#signUp">Sign up</a></li>
-                </Scrollspy>
-            </div>
-            {/* right */}
-            <div className="md:flex items-center md:justify-end justify-center hidden">
-                <button className="btn shadow-sm">Sign In</button>
-            </div>
-            <div className="md:hidden px-4 flex items-center justify-end">
-                <MenuIcon className="h-16"/>
-            </div>
+            <Dropdown toggle={toggle} isOpen={isOpen}/>
         </nav>
     )
 }
