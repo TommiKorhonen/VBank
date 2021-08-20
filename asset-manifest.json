@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/VBank/static/css/main.9c20ce9e.chunk.css",
-    "main.js": "/VBank/static/js/main.6a00f2ae.chunk.js",
-    "main.js.map": "/VBank/static/js/main.6a00f2ae.chunk.js.map",
+    "main.css": "/VBank/static/css/main.644ae1ee.chunk.css",
+    "main.js": "/VBank/static/js/main.4159b66a.chunk.js",
+    "main.js.map": "/VBank/static/js/main.4159b66a.chunk.js.map",
     "runtime-main.js": "/VBank/static/js/runtime-main.e9881669.js",
     "runtime-main.js.map": "/VBank/static/js/runtime-main.e9881669.js.map",
     "static/js/2.1aafa2bb.chunk.js": "/VBank/static/js/2.1aafa2bb.chunk.js",
     "static/js/2.1aafa2bb.chunk.js.map": "/VBank/static/js/2.1aafa2bb.chunk.js.map",
     "index.html": "/VBank/index.html",
-    "static/css/main.9c20ce9e.chunk.css.map": "/VBank/static/css/main.9c20ce9e.chunk.css.map",
+    "static/css/main.644ae1ee.chunk.css.map": "/VBank/static/css/main.644ae1ee.chunk.css.map",
     "static/js/2.1aafa2bb.chunk.js.LICENSE.txt": "/VBank/static/js/2.1aafa2bb.chunk.js.LICENSE.txt",
     "static/media/Bank.5adebf47.svg": "/VBank/static/media/Bank.5adebf47.svg",
     "static/media/analysis.4ad54582.svg": "/VBank/static/media/analysis.4ad54582.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.e9881669.js",
     "static/js/2.1aafa2bb.chunk.js",
-    "static/css/main.9c20ce9e.chunk.css",
-    "static/js/main.6a00f2ae.chunk.js"
+    "static/css/main.644ae1ee.chunk.css",
+    "static/js/main.4159b66a.chunk.js"
   ]
 }
