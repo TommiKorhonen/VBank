@@ -1,5 +1,5 @@
 # What I learned
-*s
+**s
 
 
 # Getting Started with Create React App
