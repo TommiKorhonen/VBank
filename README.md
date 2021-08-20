@@ -1,5 +1,6 @@
 # What I learned
-**s
+* More UseEffect
+* I think I got the styling on point this time. Clean and smooth and responsive.
 
 
 # Getting Started with Create React App
