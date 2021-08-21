@@ -3,6 +3,7 @@ import { MenuIcon } from "@heroicons/react/solid"
 import { XIcon } from "@heroicons/react/solid"
 import Scrollspy from 'react-scrollspy';
 import Dropdown from './Dropdown';
+import { Link } from 'react-router-dom';
 
 const Navbar = ({toggle, isOpen}) => {
     return (
@@ -25,7 +26,7 @@ const Navbar = ({toggle, isOpen}) => {
                 </div>
                 {/* right */}
                 <div className="md:flex items-center md:justify-end justify-center hidden">
-                    <button className="btn shadow-sm hover:shadow-lg transform active:scale-90">Sign In</button>
+                    <Link className="btn shadow-sm hover:shadow-lg transform active:scale-90" to="/signIn">Sign In</Link>
                 </div>
                 <span className="md:hidden px-4 flex items-center justify-end" onClick={toggle}>
                     <MenuIcon className={isOpen ? "hidden" : "h-16"}/>

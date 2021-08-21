@@ -1,7 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import ImageOne from "../../images/test.svg"
 
-const About = ({sectionRefs}) => {
+const About = () => {
      
     return (
         <section className="centerFlex flex-col-reverse lg:flex-row
@@ -18,7 +19,7 @@ const About = ({sectionRefs}) => {
                 <h2 >Unlimited Transactions with zero fees</h2>
                 <p>Get acces to our exclusive app that allows you to send unlimited transactions without any fees</p>
                 <div className="flex sm:flex-row mt-4">
-                    <button className="btn1">Get Started</button>
+                    <Link to="signIn"><button className="btn1">Get Started</button></Link>
                 </div>
             </div>
         </section>

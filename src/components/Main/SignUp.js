@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import ImageOne from "../../images/signup.svg"
 
 const SignUp = () => {
@@ -14,7 +15,7 @@ const SignUp = () => {
                 All you need to do is add your information and you're ready to go.
                 </p>
                 <div className="flex sm:flex-row mt-4">
-                    <button className="btn1">Start Now</button>
+                    <Link to="signIn"><button className="btn1">Start Now</button></Link>
                 </div>
             </div>
             <div className="flex items-center justify-center  lg:justify-start">

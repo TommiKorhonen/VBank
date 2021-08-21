@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Dropdown = ({toggle, isOpen}) => {
     return (
@@ -7,7 +8,7 @@ const Dropdown = ({toggle, isOpen}) => {
             <a href="#discover" className="mt-1 block px-2 py-1 font-semibold rounded hover:bg-blue-400" onClick={toggle}>Discover</a>
             <a href="#services" className="mt-1 block px-2 py-1 font-semibold rounded hover:bg-blue-400" onClick={toggle}>Services</a>
             <a href="#signUp" className="mt-1 block px-2 py-1 font-semibold rounded hover:bg-blue-400" onClick={toggle}>Sign up</a>
-            <button className="mt-4 block px-2 py-1 bg-blue-400 font-semibold rounded-sm   hover:shadow-lg transform active:scale-90" onClick={toggle}>Sign In</button>
+            <Link to="/signIn" className="mt-4 block px-2 py-1 bg-blue-400 font-semibold rounded-sm   hover:shadow-lg transform active:scale-90" onClick={toggle}>Sign In</Link>
         </div>
     )
 }

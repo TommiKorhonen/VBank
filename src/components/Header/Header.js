@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import imageOne from "../../images/Bank.svg"
 
 const Header = () => {
@@ -15,7 +16,7 @@ const Header = () => {
                 veniam! Totam blanditiis laborum cupiditate vel 
                 temporibus illo ea officiis ipsum fugiat!</p>
                 <div className="flex flex-wrap flex-col sm:flex-row gap-8 mt-4">
-                    <button className="btn1">Get Started</button>
+                    <Link to="/signIn"><button className="btn1">Get Started</button></Link>
                     <button className="btn1">Request a Demo</button>
                 </div>
             </div>
