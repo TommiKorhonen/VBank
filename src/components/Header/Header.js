@@ -16,7 +16,7 @@ const Header = () => {
                 veniam! Totam blanditiis laborum cupiditate vel 
                 temporibus illo ea officiis ipsum fugiat!</p>
                 <div className="flex flex-wrap flex-col sm:flex-row gap-8 mt-4">
-                    <Link to="/signIn"><button className="btn1">Get Started</button></Link>
+                    <Link to="/signIn" className="btn1 text-center"><button >Get Started</button></Link>
                     <button className="btn1">Request a Demo</button>
                 </div>
             </div>
