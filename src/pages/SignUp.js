@@ -11,7 +11,7 @@ const SignUp = () => {
                         <h3 className="text-center text-white text-xl">Sign in to your account</h3>
                         <input type="text" placeholder="Your name" className="rounded-md outline-none p-2 w-full max-w-2xl"/>
                         <input type="text" placeholder="Password" className="rounded-md outline-none p-2 w-full max-w-2xl"/>
-                        <button className="btn">Continue</button>
+                        <button className="btn" type="button">Continue</button>
                         <span className="text-center text-white cursor-pointer">Forgot password</span>
                     </form>
                 </div>
