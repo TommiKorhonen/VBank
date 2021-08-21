@@ -1,3 +1,8 @@
+# !NOTE!
+* Refreshing doesn't work in signIn page, since I am using client side rendering with react router dom. 
+* Will get github error 404 if you refresh in signIn page.
+
+
 # What I learned
 * More UseEffect
 * I think I got the styling on point this time. Clean and smooth and responsive.
