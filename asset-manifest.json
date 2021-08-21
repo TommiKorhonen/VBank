@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/VBank/static/css/main.3d84055c.chunk.css",
-    "main.js": "/VBank/static/js/main.7e30f28d.chunk.js",
-    "main.js.map": "/VBank/static/js/main.7e30f28d.chunk.js.map",
+    "main.js": "/VBank/static/js/main.6aa887a2.chunk.js",
+    "main.js.map": "/VBank/static/js/main.6aa887a2.chunk.js.map",
     "runtime-main.js": "/VBank/static/js/runtime-main.e9881669.js",
     "runtime-main.js.map": "/VBank/static/js/runtime-main.e9881669.js.map",
     "static/js/2.0da79fa5.chunk.js": "/VBank/static/js/2.0da79fa5.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.e9881669.js",
     "static/js/2.0da79fa5.chunk.js",
     "static/css/main.3d84055c.chunk.css",
-    "static/js/main.7e30f28d.chunk.js"
+    "static/js/main.6aa887a2.chunk.js"
   ]
 }
