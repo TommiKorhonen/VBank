@@ -15,7 +15,7 @@ const SignUp = () => {
                 All you need to do is add your information and you're ready to go.
                 </p>
                 <div className="flex sm:flex-row mt-4">
-                    <Link to="signIn"><button className="btn1">Start Now</button></Link>
+                    <Link to="/signIn"><button className="btn1">Start Now</button></Link>
                 </div>
             </div>
             <div className="flex items-center justify-center  lg:justify-start">
